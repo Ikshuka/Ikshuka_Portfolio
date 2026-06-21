@@ -3,6 +3,7 @@ import smartCampusImg from "@/assets/smart-campus.png";
 import wildLankaImg from "@/assets/wildlanka.png";
 import vehicleRentalImg from "@/assets/vehicle-rental.png";
 import wellnessMasterImg from "@/assets/wellness-master.png";
+import movieTicketImg from "@/assets/movie-ticket.png";
 
 const projects = [
   {
@@ -41,6 +42,15 @@ const projects = [
     glow: "accent",
     github: "https://github.com/Ikshuka/Wellness_Master",
     image: wellnessMasterImg,
+  },
+  {
+    title: "Movie Ticket Booking",
+    description:
+      "A modern cinema ticket booking system that allows users to browse currently showing movies, select showtimes, and book their preferred seats with an intuitive interactive UI.",
+    tags: ["React", "Node.js", "MongoDB", "Express"],
+    glow: "tech-blue",
+    github: "https://github.com/Ikshuka/MovieTicket",
+    image: movieTicketImg,
   },
 ];
 
