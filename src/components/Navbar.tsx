@@ -28,8 +28,10 @@ const Navbar = () => {
       }`}
     >
       <div className="max-w-7xl mx-auto flex items-center justify-between px-6 py-4">
-        <a href="#" className="font-heading text-xl font-bold text-foreground tracking-tight">
-          &lt;Dev /&gt;
+        <a href="#" className="font-heading text-xl font-bold tracking-tight flex items-center gap-1">
+          <span className="text-accent">IM</span>
+          <span className="text-foreground/40 text-sm font-normal">·</span>
+          <span className="text-foreground/60 text-sm font-normal">Portfolio</span>
         </a>
 
         <div className="hidden md:flex items-center gap-8">
