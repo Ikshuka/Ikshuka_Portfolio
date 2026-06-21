@@ -21,6 +21,7 @@ const projects = [
     tags: ["JavaScript", "React", "Node.js", "MongoDB"],
     glow: "tech-green",
     github: "https://github.com/Ikshuka/WildLanka",
+    liveUrl: "https://wild-lanka.vercel.app/",
     image: wildLankaImg,
   },
   {
@@ -117,6 +118,16 @@ const ProjectsSection = () => {
                   >
                     View Code →
                   </a>
+                  {"liveUrl" in p && p.liveUrl && (
+                    <a
+                      href={p.liveUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-center gap-1.5 text-sm font-medium text-accent hover:underline"
+                    >
+                      Live Demo ↗
+                    </a>
+                  )}
                 </div>
               </div>
             </motion.div>
